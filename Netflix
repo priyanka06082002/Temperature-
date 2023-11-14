@@ -1,0 +1,67 @@
+<div class="header">
+  <img src="netflix-logo.png" alt="Netflix Logo">
+</div>
+
+<div class="main-content">
+  <h1>Popular on Netflix</h1>
+  <div class="movie-container">
+    <!-- Movie cards go here -->
+    <div class="movie-card">
+      <img src="movie1.jpg" alt="Movie 1">
+      <h3>Movie 1</h3>
+    </div>
+    <div class="movie-card">
+      <img src="movie2.jpg" alt="Movie 2">
+      <h3>Movie 2</h3>
+    </div>
+    <!-- Add more movie cards as needed -->
+  </div>
+</div>
+
+<div class="footer">
+  <p>&copy; 2023 Netflix</p>
+</div>
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.header img {
+  max-width: 150px;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.movie-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  width: 200px;
+  margin: 10px;
+}
+
+.movie-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
